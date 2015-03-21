@@ -25,7 +25,7 @@ int main(int argc, char** argv)
     unsigned int alphabetSize, length;
     if (argc != 3)
     {
-        std::cerr << "Usage `.\\string_partitions s n' where 0<s<10 is size of alphabet, n is length of strings." << std::endl;
+        std::cerr << "Usage `.\\string_partitions s n' where 0<s<10 is size of alphabet, 0<=n is length of strings." << std::endl;
         return cpb::FAIL;
     }
     try
@@ -34,12 +34,12 @@ int main(int argc, char** argv)
         length = boost::lexical_cast<unsigned int>(argv[2]);
     } catch (boost::bad_lexical_cast e)
     {
-        std::cerr << "Usage `.\\enumerator s n' where 0<s<10 is size of alphabet, n is length of strings." << std::endl;
+        std::cerr << "Usage `.\\enumerator s n' where 0<s<10 is size of alphabet, 0<=n is length of strings." << std::endl;
         return cpb::FAIL;
     }
-    if (alphabetSize < 1 || alphabetSize > 9)
+    if (alphabetSize < 1 || alphabetSize > 9 || length<0)
     {
-        std::cerr << "Usage `.\\string_partitions s n' where 0<s<10 is size of alphabet, n is length of strings." << std::endl;
+        std::cerr << "Usage `.\\string_partitions s n' where 0<s<10 is size of alphabet, 0<=n is length of strings." << std::endl;
         return cpb::FAIL;
     }
 
