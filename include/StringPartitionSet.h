@@ -1,6 +1,10 @@
 /* 
  * File:   partitionSet.h
- * Author: collin
+ * Author: collin bleak
+ *
+ *
+ * This class supports a partition of a large global set of strings of a specfic length.  The elements
+ * of the partition will then be sets of strings.
  *
  * Created on February 23, 2015, 2:03 PM
  */

@@ -1,3 +1,10 @@
+/***************************************************      
+ *     Author: C. Bleak 23.02.2015
+ *     .cc file realising functionality of class StringSet.
+ *
+ *     Main point of class is to support an element of a partition of strings.
+*/
+
 #include<string>
 #include<set>
 #include<utility>

@@ -1,6 +1,10 @@
 /* 
  * File:   StringSet.h
- * Author: collin
+ * Author: collin bleak
+ *
+ * This class enables one to represent a element in a partition of a global set of strings.  
+ * We want these elements to be comparable for sorting as well.
+ *
  *
  * Created on February 24, 2015, 4:47 PM
  */

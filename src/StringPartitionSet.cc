@@ -1,3 +1,18 @@
+/***************************************************      
+ *     Author: C. Bleak 23.02.2015
+ *     .cc file realising functionality of class StringPartitionSet.
+ * 
+ *      Member Data for StringPartitionSet:
+ * 
+ *
+ *    std::set<StringSet> _partition;
+ *    std::set<StringSet> _forceQueue;
+ *    StringSet _letters;
+ *    StringSet _strings;
+ *    std::string _sortstring;
+ *      std::set<StringSet > thisPartition
+ *      StringSet letters;
+ */
 
 #include<sstream>
 #include<iostream>
@@ -11,15 +26,6 @@
 using namespace cpb;
 extern const int cpb::FAIL;
 extern const int cpb::SUCCESS;
-/***************************************************      
- *     Author: C. Bleak 23.02.2015
- *     .cc file realising functionality of class StringPartitionSet.
- * 
- *      Member Data for StringPartitionSet:
- * 
- *      std::set<StringSet > thisPartition
- *      StringSet letters;
- */
 
 /***************************************************
  * C'tor:  Receives set of words.

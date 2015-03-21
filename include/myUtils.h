@@ -1,6 +1,6 @@
 /* 
  * File:   myUtils.h
- * Author: collin
+ * Author: collin bleak
  *
  * Created on February 23, 2015, 2:59 PM
  */

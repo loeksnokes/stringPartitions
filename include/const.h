@@ -1,6 +1,6 @@
 /* 
  * File:   const.h
- * Author: collin
+ * Author: collin bleak
  *
  * Created on March 2, 2015, 2:50 PM
  */

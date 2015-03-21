@@ -1,6 +1,6 @@
 /* 
  * File:   main.cc
- * Author: collin
+ * Author: Collin Bleak
  *
  * Created on February 23, 2015, 10:23 AM
  */
